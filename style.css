@@ -1,0 +1,124 @@
+/* Body */
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 111, 0);
+}
+/* Edição do cabeçalho: borda e espressura */
+header {
+    box-sizing: border-box;
+    font-weight: 200;
+}
+/* Essa edição na "ul": Retirar linhas de link, fontes, negrito, o display... */
+ul {
+    display: flex;
+    justify-content:space-around;
+    list-style-type:none;
+    padding: 30px;
+    margin-bottom: 50px;
+    align-items: center;
+    font-weight: bold;
+}
+/* Essa edição no "a": tipo da fonte, cor, tamanho da fonte*/
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* Edição do título "h1": Fonte do título principal, alinhamento, tamanho e cor (respectivamente) */
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 65px;
+    color: rgb(255, 111, 0);
+}
+/* Edição dos subtítulos "h2": Alinhamento */
+h2 {
+  text-align: center;  
+  font-size: 30px;
+}
+/* Edição dos paragráfos "p": Alinhamento, cor, espaços, tamanho da fonte e espaçamento interno (respectivamente) */
+p {
+    text-align: center;
+    color: white;
+    padding: 2px;
+    font-size: 20px;
+    padding: none;
+}
+/* Edição das imagens "Do sobre nós": tamanho, borda arredondada e o espaço entre elas */
+img {
+    width: 22rem;
+    border-radius: 5%;
+    margin: 70px;
+}    
+/* Edição do formulário "form": bordas, alinhamento */
+input, select, button, fieldset {
+    border-radius: 5px;
+    text-align: center;
+}
+/* Edição da caixa de menssagem "textarea": bordas arredondada, alinahemnto no centro, cor de fundo, cor da fonte, cor da borda (respectivamente) */
+textarea {
+    border-radius: 5px;
+    text-align: center;  
+    background-color: rgb(189, 95, 0);
+    color: black;
+    border-color: black;
+}
+/* Edição da menssagem de dentro da caixa "placeholder": cor da fonte, negrito e tamanho da fonte (respectivamente) */
+::placeholder {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+ /* Edição da rolagem automática do nav "scroll-behavior": velocidade */
+:target {
+    scroll-margin-top: 15px;
+}
+/* Edição dos botões do formulário "button": bordas arredondadas, alinhamento no centro, cor da fonte, cor de fundo, negrito, cor da borda (respectivamente) */
+button {
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    background-color: rgb(189, 95, 0);
+    font-weight: bold;  
+    border-color: black;
+} 
+/* Edição da mensagem de cima do formulário "legend": tamanho da fonte */
+legend {
+    text-size-adjust: 50px;
+}
+/* Edição da imagem da rede social "insta": tamanho da imagem */
+#insta {
+    width: 7rem;
+}
+/* Edição da imagem da rede social "zap": tamanho da imagem */
+#zap {
+    width: 7rem;
+}
+/* Edição da imagem da rede social "discord": tamanho da imagem */
+#discord {
+    width: 7rem;
+}
+/* edição da imagem "mentalidade poster" */
+#mentalidadeposter {
+    width: 65rem;
+    border-radius: 10px;
+}
+.center{
+    text-align: center;
+}
+/* edição da imagem "treino poster */
+#treinoposter {
+    width: 65rem;
+    border-radius: 10px;  
+}
+#nutricaoposter {
+    width: 65rem;
+    border-radius: 10px;  
+}
+#ebook {
+    font-size: 20px;
+}
+nav a:hover {
+    color: rgb(255, 111, 0);
+}
